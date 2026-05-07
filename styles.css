@@ -1,2 +1,26 @@
+table {
+            border-collapse: collapse;
+            width: 100%;
+        }
 
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .html-cell {
+            background-color: black;
+            color: white;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+            text-align: left;
+		}
 /* Your CSS Code here. */
