@@ -9,85 +9,75 @@
         
   </head>
   <body>
-     <table>
+      <table class="main-table">
 
-        <tr>
+    <tr>
+      <!-- Nested Table 2 -->
+      <td>
+        <table class="nested-table">
+          <tr>
+            <th colspan="2">Nested Table 2</th>
+          </tr>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+          <tr>
+            <td>abc</td>
+            <td>def</td>
+          </tr>
+        </table>
+      </td>
 
-            <!-- Nested Table 1 -->
+      <!-- Nested Table 1 -->
+      <td>
+        <table class="nested-table">
+          <tr>
+            <th>Nested Table 1</th>
+          </tr>
+          <tr>
             <td>
-                <table>
-                    <tr>
-                        <th>Nested Table 1</th>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <ul>
-                                <li>List item 1</li>
-                                <li>List item 2</li>
-                                <li>List item 3</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+              <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+              </ul>
             </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
-            <!-- Nested Table 2 -->
+    <tr>
+      <!-- Nested Table 3 -->
+      <td>
+        <table class="nested-table">
+          <tr>
+            <th colspan="2">Nested Table 3</th>
+          </tr>
+          <tr>
             <td>
-                <table>
-                    <tr>
-                        <th colspan="2">Nested Table 2</th>
-                    </tr>
-
-                    <tr>
-                        <th>Column 1</th>
-                        <th>Column 2</th>
-                    </tr>
-
-                    <tr>
-                        <td>Data 1</td>
-                        <td>Data 2</td>
-                    </tr>
-                </table>
+              <a href="#">Nested Table</a>
             </td>
+            <td>Demo Continued</td>
+          </tr>
+        </table>
+      </td>
 
-        </tr>
+      <!-- Nested Table 4 -->
+      <td>
+        <table class="nested-table">
+          <tr>
+            <th>Nested Table 4</th>
+          </tr>
+          <tr>
+            <td class="html-cell">HTML</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
-        <tr>
-
-            <!-- Nested Table 3 -->
-            <td>
-                <table>
-                    <tr>
-                        <th>Nested Table 3</th>
-                    </tr>
-
-                    <tr>
-                        <td class="black-cell">HTML</td>
-                    </tr>
-                </table>
-            </td>
-
-            <!-- Nested Table 4 -->
-            <td>
-                <table>
-                    <tr>
-                        <th>Nested Table 4</th>
-                    </tr>
-
-                    <tr>
-                        <td>CSS</td>
-                    </tr>
-
-                    <tr>
-                        <td>JavaScript</td>
-                    </tr>
-                </table>
-            </td>
-
-        </tr>
-
-    </table>
+  </table>
 
   </body>
 </html>
